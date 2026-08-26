@@ -28,8 +28,7 @@ jobs:
       - name: Find Build Templates
         id: find-templates
         run: |
-          # Find all *.Dockerfile files, extract names, and format as JSON array
-          TEMPLATES=$(ls *.Dockerfile | sed 's/\.Dockerfile//' | jq -R -s -c 'split("\n")[:-1]')
+          TEMPLATES=$(ls *-Minimal.Dockerfile *-XFCE.Dockerfile 2>/dev/null | sed 's/\.Dockerfile//' | jq -R -s -c 'split("\n")[:-1]')
           echo "templates=$TEMPLATES" >> $GITHUB_OUTPUT
           echo "Detected templates: $TEMPLATES"
 
@@ -57,7 +56,6 @@ jobs:
       - name: Build RootFS (${{ matrix.template }})
         run: |
           chmod +x build_rootfs-native.sh
-          # Native build without QEMU overhead
           ./build_rootfs-native.sh -i "${{ matrix.template }}.Dockerfile" -v "${{ needs.setup.outputs.build_id }}"
 
       - name: Upload Build Artifact
@@ -90,7 +88,7 @@ jobs:
           name: "Droidspaces RootFS ${{ needs.setup.outputs.build_id }}"
           files: "*.tar.xz"
           body: |
-            Automated Droidspaces RootFS Multi-Build
+            Automated Droidspaces RootFS Build
             Built on: ${{ needs.setup.outputs.build_date }}
             Build ID: ${{ needs.setup.outputs.build_id }}
 
@@ -102,8 +100,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Update rootfs.json Registry
-        run: |
-          python3 scripts/update_rootfs_json.py .
+        run: python3 scripts/update_rootfs_json.py .
 
       - name: Commit and Push rootfs.json
         run: |
