@@ -10,7 +10,7 @@
     "size_bytes": 101446392,
     "version": "v20260826-100102",
     "build_date": "20260826",
-    "author": "Droidspaces developers"
+    "author": "Nathan"
   },
   {
     "name": "Debian GNU/Linux 13 (Trixie) - XFCE",
@@ -23,7 +23,7 @@
     "size_bytes": 632303496,
     "version": "v20260826-100102",
     "build_date": "20260826",
-    "author": "Droidspaces developers"
+    "author": "Nathan"
   },
   {
     "name": "Ubuntu 24.04 LTS - Minimal",
@@ -36,7 +36,7 @@
     "size_bytes": 73963288,
     "version": "v20260826-100102",
     "build_date": "20260826",
-    "author": "Droidspaces developers"
+    "author": "Nathan"
   },
   {
     "name": "Ubuntu 24.04 LTS - XFCE",
@@ -49,6 +49,6 @@
     "size_bytes": 567342784,
     "version": "v20260826-100102",
     "build_date": "20260826",
-    "author": "Droidspaces developers"
+    "author": "Nathan"
   }
 ]
