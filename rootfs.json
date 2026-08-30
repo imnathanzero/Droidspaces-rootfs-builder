@@ -5,11 +5,11 @@
     "description": "Minimal Debian 13 rootfs with only the essential Droidspaces runtime, networking, SSH, and system tools.",
     "architecture": "aarch64",
     "file": "Debian-13-Minimal",
-    "download_url": "https://github.com/imnathanzero/Droidspaces-rootfs-builder/releases/download/v20260826-114451/Debian-13-Minimal-Droidspaces-rootfs-aarch64-20260826-v20260826-114451.tar.xz",
-    "sha256": "72a92ac58a1ce3a223a65cb4d69407389b078eff7a9af856c30595a5d6a030d8",
-    "size_bytes": 101464144,
-    "version": "v20260826-114451",
-    "build_date": "20260826",
+    "download_url": "https://github.com/imnathanzero/Droidspaces-rootfs-builder/releases/download/v20260830-024931/Debian-13-Minimal-Droidspaces-rootfs-aarch64-20260830-v20260830-024931.tar.xz",
+    "sha256": "ce1e36e2128687247942f9fcd6d74e1095eff145e418c2e6152bb2b2719705eb",
+    "size_bytes": 101446488,
+    "version": "v20260830-024931",
+    "build_date": "20260830",
     "author": "Nathan"
   },
   {
@@ -18,11 +18,11 @@
     "description": "Minimal Debian 13 rootfs with a lightweight XFCE desktop and only the packages needed for the desktop experience.",
     "architecture": "aarch64",
     "file": "Debian-13-XFCE",
-    "download_url": "https://github.com/imnathanzero/Droidspaces-rootfs-builder/releases/download/v20260826-114451/Debian-13-XFCE-Droidspaces-rootfs-aarch64-20260826-v20260826-114451.tar.xz",
-    "sha256": "12a3afa9be3d2907325fe3c7b62f7c10e49452b747471aaeef90ea93fb5aa025",
-    "size_bytes": 632252304,
-    "version": "v20260826-114451",
-    "build_date": "20260826",
+    "download_url": "https://github.com/imnathanzero/Droidspaces-rootfs-builder/releases/download/v20260830-024931/Debian-13-XFCE-Droidspaces-rootfs-aarch64-20260830-v20260830-024931.tar.xz",
+    "sha256": "5f49d2fa6a3b9f6971f5d3616be0786a1750d8a562d427f335f69cc8e10f4dd7",
+    "size_bytes": 632281412,
+    "version": "v20260830-024931",
+    "build_date": "20260830",
     "author": "Nathan"
   },
   {
@@ -31,11 +31,11 @@
     "description": "Minimal Ubuntu 24.04 rootfs with only the essential Droidspaces runtime, networking, SSH, and system tools.",
     "architecture": "aarch64",
     "file": "Ubuntu-24.04-Minimal",
-    "download_url": "https://github.com/imnathanzero/Droidspaces-rootfs-builder/releases/download/v20260826-114451/Ubuntu-24.04-Minimal-Droidspaces-rootfs-aarch64-20260826-v20260826-114451.tar.xz",
-    "sha256": "32381b17fc97a919d991669341beaa1db97d3dff194ed4f3666e5505dd74d019",
-    "size_bytes": 73991820,
-    "version": "v20260826-114451",
-    "build_date": "20260826",
+    "download_url": "https://github.com/imnathanzero/Droidspaces-rootfs-builder/releases/download/v20260830-024931/Ubuntu-24.04-Minimal-Droidspaces-rootfs-aarch64-20260830-v20260830-024931.tar.xz",
+    "sha256": "f4b1c51947ecc63fdad56c3d3c83b8936ff89e0f246aa71c5bda44c3f20afa49",
+    "size_bytes": 74040232,
+    "version": "v20260830-024931",
+    "build_date": "20260830",
     "author": "Nathan"
   },
   {
@@ -44,11 +44,11 @@
     "description": "Minimal Ubuntu 24.04 rootfs with a lightweight XFCE desktop and only the packages needed for the desktop experience.",
     "architecture": "aarch64",
     "file": "Ubuntu-24.04-XFCE",
-    "download_url": "https://github.com/imnathanzero/Droidspaces-rootfs-builder/releases/download/v20260826-114451/Ubuntu-24.04-XFCE-Droidspaces-rootfs-aarch64-20260826-v20260826-114451.tar.xz",
-    "sha256": "f0daceb69a6d67225b6ff80f38782f649a30622f60d20270b123840ed1129c64",
-    "size_bytes": 567290552,
-    "version": "v20260826-114451",
-    "build_date": "20260826",
+    "download_url": "https://github.com/imnathanzero/Droidspaces-rootfs-builder/releases/download/v20260830-024931/Ubuntu-24.04-XFCE-Droidspaces-rootfs-aarch64-20260830-v20260830-024931.tar.xz",
+    "sha256": "e5322eb9ddc936b04da36aca1906e167fc53f8e443a6d9ddfb611821a80471c6",
+    "size_bytes": 567236936,
+    "version": "v20260830-024931",
+    "build_date": "20260830",
     "author": "Nathan"
   }
 ]
